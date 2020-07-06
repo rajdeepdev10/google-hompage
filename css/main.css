@@ -1,0 +1,182 @@
+/*font type of webpage*/
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  opacity: 90%;
+}
+
+.header-left{
+	float: left;
+	padding-top: 10px;
+}
+
+.header-right{
+	float: right;
+}
+.profile-pic{
+		height: 35px; width: 35px;
+		border-radius: 50%;
+	}
+
+.nav-dots{
+	height: 25px; width: 25px;
+	opacity: 0.75;
+}
+
+.nav-dots:hover{
+	opacity: 100%;
+}
+
+
+.google-logo{
+	text-align: center;
+	padding-top: 12%;	
+}
+
+.buttons{
+	text-align: center;
+} 
+
+/*aligns the language option text in center*/
+p{
+	text-align: center;
+}
+
+/*removes the hyperlink of 'francais'*/
+.french-option{
+	text-decoration: none;
+	color:blue;
+}
+
+.french-option:hover{
+	text-decoration: underline;
+}
+
+/*sticks footer into bottom of webpage*/
+footer{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 10px;
+}
+
+/*keeps lists into position*/
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*keeps list horizontal and creates gaps*/
+li{
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/*removes hyperlink decoration*/
+li a {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+/*underlines links when hovered*/
+li:hover{
+	text-decoration: underline;
+}
+
+/*Decorates the search tab*/
+.search-tab {
+	font: 16px arial, sans-serif;
+    position: relative;
+    top: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 40px;
+    border: 1px solid #dfe1e5;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.search-tab:hover {
+    box-shadow: 0 0 3px 1px #dfe1e5;
+}
+
+/*search and microphone icons*/
+.search-icon {
+	position: relative;
+	width: 18px;
+	float: left;
+	bottom: 10px;
+	left: 15px;
+}
+
+.microphone-icon {
+	position: relative; 
+	width: 18px;
+	float: right;
+	bottom: 13px;
+	right: 15px;
+}
+
+/*created this 'virtual' box to move search and microphone icons into position*/
+.search-box{
+    display: block;
+    margin: 0px auto;
+    width: 600px;
+    height: 80px;
+	border: transparent;
+}
+
+.search-button, .lucky-button{
+	color: rgba(0, 0, 0, 0.67);
+	padding: 1rem;
+    border: 1px solid #f2f2f2;
+    margin: 1rem 0.5rem;
+    background-color: #f2f2f2;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.search-button:hover, .lucky-button:hover,
+.search-button:active, .lucky-button:active,
+.search-button:focus, .lucky-button:focus{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f6f6f6;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    outline: none;
+}
+
+
+/*sticks footer to bottom of page*/
+footer{
+    display: block;
+    position: fixed;
+	bottom: 0;
+	background-color: #f2f2f2;
+}
+
+/*footer decorations*/
+.footer-top, .footer-bottom{
+    width: 100vw;
+    font-size: 15px;
+	border-top: 1px solid #e4e4e4;
+	color: grey;  
+}
+
+.footer-top{
+	padding: 10px;
+}
+
+.footer-bottom-left{
+	float: left;
+}
+
+.footer-bottom-right{
+	float:right;
+}
+
+  
